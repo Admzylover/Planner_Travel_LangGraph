@@ -40,7 +40,7 @@ class Settings(BaseSettings):
     openai_model: str = "gpt-4-turbo-preview"
 
     # MiniMax
-    minimax_api_key: str = "sk-cp-T7-cjLFqw3me7mKWJhsy1crHSV8Inpj1w3jK-NeoZqJgniMVtGc7h4wSvTF-R-XOI3mr9AB1RcfaE03C0seFUP_b5yabmxOA8i-hJYQKnPfh7kMjbSPcBhs"
+    minimax_api_key: str = ""
     minimax_base_url: str = "https://api.minimaxi.com/v1"
     minimax_model: str = "MiniMax-M3"
 
